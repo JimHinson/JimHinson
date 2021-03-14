@@ -1,5 +1,5 @@
 ### Hi there 👋
-- 🔭 I’m currently working on 
+- 🔭 I’m currently working on  
 -- Leading testers by example
 - 🌱 I’m currently learning  
 -- More about the Cypress framework every day   
