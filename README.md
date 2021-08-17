@@ -1,6 +1,14 @@
 # Quality is a way of life
 ### Hi there 👋
 - 🔭 I’m currently working on  
+-- Designing a Definition of Done with the team
+--- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product
+--- We outline our story implementation
+--- We decide how we will test each piece of that implementation
+--- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business
+-- During the coding phase, we outline as much, or as little, of a test plan as we need
+
+- I'm also working on 
 -- Leading testers by example
 -- Mentoring testers
 - 🌱 I’m currently learning  
