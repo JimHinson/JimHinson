@@ -2,7 +2,7 @@
 ### Hi there 👋
 - 🔭 I’m currently working on  
 -- Quality Leadership  
---- What does this mean to you?
+--- What does this mean to you?  
 -- Designing a Definition of Done with the team  
 --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product  
 --- We outline our story implementation  
