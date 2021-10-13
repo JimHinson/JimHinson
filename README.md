@@ -18,12 +18,20 @@
 -- Functional programming with Javascript and Typescript  
 -- Java and Selenium  
 - 💬 Ask me about  
+-- Shift Left
+-- Shift Right
 -- Test automation best practices
 -- Cypress testing best practices  
 -- Full stack test automation  
 -- Test frameworks  
 -- Defining quality objectives for CI/CD  
 -- Defining your test strategy  
+
+
+- The Value of Testing
+-- How do I communicate the value of testing?
+-- Sprint Demo 
+--- I’ve found stakeholders and leadership particularly appreciate including test methodologies in the sprint demo. We show what we tested, how we tested it, and what we’ve automated. This gives them insight into the quality being delivered, as well as what we’ve done to prevent future issues. 
 <!-- Some objectives I might set, if i join your team:  
 - 45 Days  
 -- Searching for two Senior QA Engineer candidates  
