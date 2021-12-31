@@ -1,8 +1,13 @@
-# Quality is a way of life
-### Hi there 👋
+# Quality is a way of life  
+## Hi there 👋
 - 🔭 I’m currently working on  
--- Quality Leadership  
---- What does this mean to you?  
+-- Quality Leadership: Leading my organization to deliver business value faster through improved quality  
+-- Team ownership of quality encourages shared testing  
+-- Shared testing delivers higher quality earlier in the SDLC  
+-- Building quality from the outset eliminates context switching and rework  
+- What does this mean for you?  
+-- Higher performing teams who find greater fulfillment in their work
+- How do i do this?  
 -- Designing a Definition of Done with the team  
 --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product  
 --- We outline our story implementation  
@@ -10,16 +15,16 @@
 --- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business  
 -- During the coding phase, we outline as much, or as little, of a test plan as we need  
 
-- I'm also working on  
--- Leading testers by example  
--- Mentoring testers  
+  
 - 🌱 I’m currently learning  
+-- Kubernetes
+-- Cloud testing  
 -- More about the Cypress framework every day  
 -- Functional programming with Javascript and Typescript  
 -- Java and Selenium  
 - 💬 Ask me about  
--- Shift Left  
--- Shift Right  
+-- Shift Left: Building in quality from the beginning  
+-- Shift Right: Testing in production  
 -- Test automation best practices  
 -- Cypress testing best practices  
 -- Full stack test automation  
@@ -29,7 +34,7 @@
 
 
 - The Value of Testing  
--- How do I communicate the value of testing?  
+-- One novel way to communicate the value of 
 -- Sprint Demo  
 --- I’ve found stakeholders and leadership particularly appreciate including test methodologies in the sprint demo. We show what we tested, how we tested it, and what we’ve automated. This gives them insight into the quality being delivered, as well as what we’ve done to prevent future issues.  
 <!-- Some objectives I might set, if i join your team:  
