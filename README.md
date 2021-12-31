@@ -17,8 +17,9 @@
 
   
 - 🌱 I’m currently learning  
--- Kubernetes
+-- Kubernetes  
 -- Cloud testing  
+-- Continuous Delivery  
 -- More about the Cypress framework every day  
 -- Functional programming with Javascript and Typescript  
 -- Java and Selenium  
