@@ -2,7 +2,7 @@
 ## Hi there 👋
 
 # What is an Engineering Team Architecture (ETA)  
-Successful organziations have a clear understanding of the reauired individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible ([[engineering is an art]], after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
+Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
 These two, roles and processes (responsibilities) define how the organization will build things, or the organization's Engineering Team Architecture.
 
 - 🔭 I’m currently working on  
