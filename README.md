@@ -45,6 +45,14 @@ These two, roles and processes (responsibilities), define how the organization w
 -- One novel way to communicate the value of 
 -- Sprint Demo  
 --- I’ve found stakeholders and leadership particularly appreciate including test methodologies in the sprint demo. We show what we tested, how we tested it, and what we’ve automated. This gives them insight into the quality being delivered, as well as what we’ve done to prevent future issues.  
+
+### Quality Organizations
+[](QE Unit)
+
+<!-- Dead Orgs?
+[https://www.veriomqa.com/](Veriom QA)
+-->
+
 <!-- Some objectives I might set, if i join your team:  
 - 45 Days  
 -- Searching for two Senior QA Engineer candidates  
