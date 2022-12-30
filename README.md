@@ -3,14 +3,16 @@
 
 # What is an Engineering Team Architecture (ETA)  
 Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
-These two, roles and processes (responsibilities) define how the organization will build things, or the organization's Engineering Team Architecture.
+These two, roles and processes (responsibilities), define how the organization will build things, or the organization's Engineering Team Architecture.
+
+## [Faster through better quality](https://qeunit.com/manifesto/?utm_source=mailpoet&utm_medium=email&utm_campaign=you-are-now-following-the-qe-unit_1 )
 
 - 🔭 I’m currently working on  
 -- Quality Leadership: Leading my organization to deliver business value faster through improved quality  
 -- Team ownership of quality encourages shared testing  
 -- Shared testing delivers higher quality earlier in the SDLC  
 -- Building quality from the outset eliminates context switching and rework  
-- What does this mean for you?  
+- What does this mean for you  
 -- Higher performing teams who find greater fulfillment in their work
 - How do i do this?  
 -- Designing a Definition of Done with the team  
