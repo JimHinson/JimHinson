@@ -3,6 +3,8 @@
 
 # Keys to Quality
 1. Idempotent: The test environment should be unchanged once the test complete
+2. Independent: The test should run on its own
+3. Autonomous: The test should not affect any other test
 
 # What is an Engineering Team Architecture (ETA)  
 Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
