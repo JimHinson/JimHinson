@@ -1,6 +1,13 @@
 # Quality is a way of life  
 ## Hi there 👋
 
+# A few of my recent accomplishments
+* Developed SQA roadmap, including objectives, scope, priorities, standards and policies, establishing QA KPIs that improved project alignment with cross-functional teams.
+* Achived a 75% reduction in hot patch delivery time bby implementing sanity test automation.
+* Cut legacy test automation failures by 50%, reducing sprint hardening time by 20%.
+* Led a team of 20 domestic and international engineers to improve quality by introducing team ownership of testing, peer test reviews, and test automation code reviews.
+
+
 # Keys to Quality
 1. Idempotent: The test environment should be unchanged once the test complete
 2. Independent: The test should run on its own
@@ -66,7 +73,6 @@ Join current code review process
 Partner with engineering to create DoD (Definition of Done) which meets Quality objectives
 
 90 Days
-Fill the two open QA Engineer positions, objectives for onboarding defined
 Partner with Engineering to ensure RACI for the organization includes Quality Engineers
 Partner with DevOps to define CI/CD process
    - Clearly defined test environments (orcontainers) with Quality objectives for each
