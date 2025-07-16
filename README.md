@@ -7,11 +7,38 @@
 * Cut legacy test automation failures by 50%, reducing sprint hardening time by 20%.
 * Led a team of 20 domestic and international engineers to improve quality by introducing team ownership of testing, peer test reviews, and test automation code reviews.
 
-
-# Keys to Quality
+# Keys to Quality   
+## Test Attributes   
 1. Idempotent: The test environment should be unchanged once the test complete
 2. Independent: The test should run on its own
 3. Autonomous: The test should not affect any other test
+
+## Best Practices
+1. Use control IDs or other unique locators for UI tests.
+2. Work closely with development to keep tests in sync with the code.
+3. Keep tests in the same repository when possible to keep them in sync with the application code.
+4. Push tests down the triangle when possible. Generally speaking, this list is in order from least to most reliable:   
+  a. UI/E2E tests   
+  b. API tests   
+  c. Contract tests   
+  d. Unit tests
+5. Maintain clear logging and reporting for quick failure analysis.
+6. Never ship code with broken tests.
+7. Use data driven tests to cover a broader set of scenarios with test code.
+
+## Code Design
+1. Use a modular design which supports easy re-use of code.
+2. Keep your test code separate from action code, and separate from app interaction code (UI code). One nice pattern: Page Objects, Action Objects, Test Objects
+
+## Prioritize tests
+Suggested priority order:
+1. Critical functionality.
+2. Commonly used functionality.
+3. High Risk functionality.
+4. High Visibility functionality.
+5. Bug concentrations.
+6. Time consuming tests.
+7. Data driven tests.
 <!--
 # What is an Engineering Team Architecture (ETA)  
 Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
