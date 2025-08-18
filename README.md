@@ -1,11 +1,27 @@
 # Quality is a way of life  
-## Hi there 👋
+- You can also find me on [Linked In](https://www.linkedin.com/in/jimhinson/).
+
+- My current projects include:  
+-- Quality Leadership: Leading my organization to deliver business value faster through improved quality.  
+-- Team ownership of quality encourages shared testing.  
+-- Shared testing delivers higher quality earlier in the SDLC.  
+-- Building quality from the outset eliminates context switching and rework.  
+- What does this mean for you?  
+-- Higher performing teams who find greater fulfillment in their work.
+- How do i do this?  
+-- Designing a Definition of Done with the team.  
+  --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product.  
+  --- We outline our story implementation.  
+  --- We decide how we will test each feature.  
+  --- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business.  
+-- During the coding phase, we outline as much, or as little, of a test plan as we need.  
+
 
 # A few of my recent accomplishments
 * Developed SQA roadmap, including objectives, scope, priorities, standards and policies, establishing QA KPIs that improved project alignment with cross-functional teams.
-* Achived a 75% reduction in hot patch delivery time bby implementing sanity test automation.
+* Achieved a 75% reduction in hot patch delivery time by implementing sanity test automation.
 * Cut legacy test automation failures by 50%, reducing sprint hardening time by 20%.
-* Led a team of 20 domestic and international engineers to improve quality by introducing team ownership of testing, peer test reviews, and test automation code reviews.
+* Led a team of 20 domestic and international engineers to improve quality through smoke test automation, introducing team ownership of testing, peer test reviews, and test automation code reviews.
 
 # Keys to Quality   
 ## Test Attributes   
@@ -16,7 +32,7 @@
 ## Best Practices
 1. Use control IDs or other unique locators for UI tests.
 2. Work closely with development to keep tests in sync with the code.
-3. Keep tests in the same repository when possible to keep them in sync with the application code.
+3. Keep tests in the same repository as application code when possible to keep them in sync with the application code.
 4. Push tests down the triangle when possible. Generally speaking, this list is in order from least to most reliable:   
   a. UI/E2E tests   
   b. API tests   
