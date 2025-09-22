@@ -1,7 +1,10 @@
 # Quality is a way of life  
 - You can also find me on [Linked In](https://www.linkedin.com/in/jimhinson/).
 
+I am creating examples of Agentic AI Patterns presented by Mark Kashef in his YouTube video "Master ALL 20 Agentic AI Design Patterns [Complete Course]": https://github.com/JimHinson/agentic-ai-patterns  
+
 - My current projects include:  
+
 -- Quality Leadership: Leading my organization to deliver business value faster through improved quality.  
 -- Team ownership of quality encourages shared testing.  
 -- Shared testing delivers higher quality earlier in the SDLC.  
