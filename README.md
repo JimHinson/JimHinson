@@ -1,24 +1,10 @@
 # Quality is a way of life  
-- You can also find me on [Linked In](https://www.linkedin.com/in/jimhinson/).
+ 
+I inspire teams to deliver exceptional business value through engineering best practices and seamless collaboration. With extensive experience leading and structuring high-performance teams, I cultivate strategic partnerships and oversea the full product lifecycle to ensure innovation and efficiency. My expertise lies in transforming teams into quality powerhouses by implementing and evangelizing test automation across all layers of the application architecture - Unit, Integration, API and UI testing - maximizing reliability and scalability.   
+  
+You can also find me on [Linked In](https://www.linkedin.com/in/jimhinson/).
 
 I am creating examples of Agentic AI Patterns presented by Mark Kashef in his YouTube video "Master ALL 20 Agentic AI Design Patterns [Complete Course]": https://github.com/JimHinson/agentic-ai-patterns  
-
-- My current projects include:  
-
--- Quality Leadership: Leading my organization to deliver business value faster through improved quality.  
--- Team ownership of quality encourages shared testing.  
--- Shared testing delivers higher quality earlier in the SDLC.  
--- Building quality from the outset eliminates context switching and rework.  
-- What does this mean for you?  
--- Higher performing teams who find greater fulfillment in their work.
-- How do i do this?  
--- Designing a Definition of Done with the team.  
-  --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product.  
-  --- We outline our story implementation.  
-  --- We decide how we will test each feature.  
-  --- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business.  
--- During the coding phase, we outline as much, or as little, of a test plan as we need.  
-
 
 # A few of my recent accomplishments
 * Developed SQA roadmap, including objectives, scope, priorities, standards and policies, establishing QA KPIs that improved project alignment with cross-functional teams.
@@ -27,12 +13,12 @@ I am creating examples of Agentic AI Patterns presented by Mark Kashef in his Yo
 * Led a team of 20 domestic and international engineers to improve quality through smoke test automation, introducing team ownership of testing, peer test reviews, and test automation code reviews.
 
 # Keys to Quality   
-## Test Attributes   
+## Automated Test Attributes   
 1. Idempotent: The test environment should be unchanged once the test complete
 2. Independent: The test should run on its own
 3. Autonomous: The test should not affect any other test
 
-## Best Practices
+## Automated Test Best Practices
 1. Use control IDs or other unique locators for UI tests.
 2. Work closely with development to keep tests in sync with the code.
 3. Keep tests in the same repository as application code when possible to keep them in sync with the application code.
@@ -45,11 +31,11 @@ I am creating examples of Agentic AI Patterns presented by Mark Kashef in his Yo
 6. Never ship code with broken tests.
 7. Use data driven tests to cover a broader set of scenarios with test code.
 
-## Code Design
+## Automated Test Code Design
 1. Use a modular design which supports easy re-use of code.
 2. Keep your test code separate from action code, and separate from app interaction code (UI code). One nice pattern: Page Objects, Action Objects, Test Objects
 
-## Prioritize tests
+## Prioritize Test Automation
 Suggested priority order:
 1. Critical functionality.
 2. Commonly used functionality.
@@ -58,6 +44,21 @@ Suggested priority order:
 5. Bug concentrations.
 6. Time consuming tests.
 7. Data driven tests.
+
+- My current projects include:  
+-- Quality Leadership: Leading my organization to deliver business value faster through improved quality.  
+-- Shared testing delivers higher quality earlier in the SDLC.  This works best when Quality Engineering maintains ownership of Quality, sharing ownership of testing across the team.
+-- Building quality from the outset eliminates context switching and rework.  
+- What does this mean for you?  
+-- Higher performing teams who find greater fulfillment in their work.
+- How do i do this?  
+-- Designing a Definition of Done with the team.  
+  --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product.  
+  --- We outline our story implementation.  
+  --- We decide how we will test each feature.  
+  --- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business.  
+-- During the coding phase, we outline as much, or as little, of a test plan as we need.  
+
 <!--
 # What is an Engineering Team Architecture (ETA)  
 Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
