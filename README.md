@@ -2,7 +2,7 @@
 
 **I spent 30 years making software prove it works. Now I make AI prove it.**
 
-I got here through 30+ years of enterprise engineering experience: leading teams of up to 20 at Microsoft, Panzura, and Victra, cutting hot-patch delivery time 75% and automation failures 50%. The problem was always the same — deciding what counts as evidence. AI just made it urgent.
+30+ years of enterprise engineering experience: leading teams of up to 20 at Microsoft, Panzura, and Victra, cutting hot-patch delivery time 75% and automation failures 50%. The problem was always the same — deciding what counts as evidence. AI just made it urgent.
 
 **Elsewhere:** https://www.gauntletscore.com · [LinkedIn](https://www.linkedin.com/in/jimhinson/) · [X](https://twitter.com/JimHinson6)
 
