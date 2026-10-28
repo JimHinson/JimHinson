@@ -4,14 +4,14 @@
 
 Co-founder & CTO at Genstrata, where we're building [the Gauntlet](https://www.gauntletscore.com) — adversarial verification that checks AI output against primary sources before anyone acts on it.
 
-I got here through 30+ enterprise engineering experience: leading teams of up to 20 at Microsoft, Panzura, and Victra, cutting hot-patch delivery time 75% and automation failures 50%. The problem was always the same — deciding what counts as evidence. AI just made it urgent.
+I got here through 30+ years of enterprise engineering experience: leading teams of up to 20 at Microsoft, Panzura, and Victra, cutting hot-patch delivery time 75% and automation failures 50%. The problem was always the same — deciding what counts as evidence. AI just made it urgent.
 
 **Elsewhere:** [jim.hinson.pro](https://jim.hinson.pro) · [LinkedIn](https://www.linkedin.com/in/jimhinson/) · [X](https://twitter.com/JimHinson6)
 
 ## Genstrata
 - Replaced the GauntletScore LLM debate engine with a deterministic evidence ledger: on a locked 200 - 300-claim scorecard across 4 domains, zero filings called false and confident errors under 2%.
-Stood up the engineering foundation from scratch: CI with tests on every PR, branch protection, AI-assisted code review gates, incident postmortems, SOC 2 readiness.
-Hired and onboarded the first engineer; set test-automation strategy (two-tier smoke/nightly suite as a release gate, doubling as production monitoring).
+- Stood up the engineering foundation from scratch: CI with tests on every PR, branch protection, AI-assisted code review gates, incident postmortems, SOC 2 readiness.
+- Hired and onboarded the first engineer; set test-automation strategy (two-tier smoke/nightly suite as a release gate, doubling as production monitoring).
 
 ## Public work
 
