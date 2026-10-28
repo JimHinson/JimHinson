@@ -1,140 +1,62 @@
-# Quality is a way of life  
- 
-I inspire teams to deliver exceptional business value through engineering best practices and seamless collaboration. With extensive experience leading and structuring high-performance teams, I cultivate strategic partnerships and oversea the full product lifecycle to ensure innovation and efficiency. My expertise lies in transforming teams into quality powerhouses by implementing and evangelizing test automation across all layers of the application architecture - Unit, Integration, API and UI testing - maximizing reliability and scalability.   
-  
-You can also find me on [Linked In](https://www.linkedin.com/in/jimhinson/).
+# Jim Hinson
 
-I am creating examples of Agentic AI Patterns presented by Mark Kashef in his YouTube video "Master ALL 20 Agentic AI Design Patterns [Complete Course]": https://github.com/JimHinson/agentic-ai-patterns  
+**I spent 30 years making software prove it works. Now I make AI prove it.**
 
-# A few of my recent accomplishments
-* Developed SQA roadmap, including objectives, scope, priorities, standards and policies, establishing QA KPIs that improved project alignment with cross-functional teams.
-* Achieved a 75% reduction in hot patch delivery time by implementing sanity test automation.
-* Cut legacy test automation failures by 50%, reducing sprint hardening time by 20%.
-* Led a team of 20 domestic and international engineers to improve quality through smoke test automation, introducing team ownership of testing, peer test reviews, and test automation code reviews.
+Co-founder & CTO at Genstrata, where we're building [the Gauntlet](https://www.gauntletscore.com) — adversarial verification that checks AI output against primary sources before anyone acts on it.
 
-# Keys to Quality   
-## Automated Test Attributes   
-1. Idempotent: The test environment should be unchanged once the test complete
-2. Independent: The test should run on its own
-3. Autonomous: The test should not affect any other test
+I got here through 30+ enterprise engineering experience: leading teams of up to 20 at Microsoft, Panzura, and Victra, cutting hot-patch delivery time 75% and automation failures 50%. The problem was always the same — deciding what counts as evidence. AI just made it urgent.
 
-## Automated Test Best Practices
+**Elsewhere:** [jim.hinson.pro](https://jim.hinson.pro) · [LinkedIn](https://www.linkedin.com/in/jimhinson/) · [X](https://twitter.com/JimHinson6)
+
+## Genstrata
+- Replaced the GauntletScore LLM debate engine with a deterministic evidence ledger: on a locked 200 - 300-claim scorecard across 4 domains, zero filings called false and confident errors under 2%.
+Stood up the engineering foundation from scratch: CI with tests on every PR, branch protection, AI-assisted code review gates, incident postmortems, SOC 2 readiness.
+Hired and onboarded the first engineer; set test-automation strategy (two-tier smoke/nightly suite as a release gate, doubling as production monitoring).
+
+## Public work
+
+- [agentic-ai-patterns](https://github.com/JimHinson/agentic-ai-patterns) — working implementations of 20 agentic design patterns in Python
+- [ai-engineering-unpacked](https://github.com/JimHinson/ai-engineering-unpacked) — notebooks from working through applied LLM engineering
+
+## Before Genstrata
+
+- Built the SQA roadmap — objectives, scope, standards, KPIs — that aligned QA with cross-functional delivery.
+- Led 20 domestic and international engineers, moving testing to shared team ownership with peer test reviews and automation code reviews.
+- Cut legacy automation failures 50%, reducing sprint hardening time 20%.
+
+<details>
+<summary><strong>How I think about quality</strong> — the test-automation playbook</summary>
+
+### Automated test attributes
+1. **Idempotent** — the environment is unchanged once the test completes.
+2. **Independent** — the test runs on its own.
+3. **Autonomous** — the test affects no other test.
+
+### Best practices
 1. Use control IDs or other unique locators for UI tests.
 2. Work closely with development to keep tests in sync with the code.
-3. Keep tests in the same repository as application code when possible to keep them in sync with the application code.
-4. Push tests down the triangle when possible. Generally speaking, this list is in order from least to most reliable:   
-  a. UI/E2E tests   
-  b. API tests   
-  c. Contract tests   
-  d. Unit tests
+3. Keep tests in the same repository as application code when possible.
+4. Push tests down the pyramid. From least to most reliable: UI/E2E → API → contract → unit.
 5. Maintain clear logging and reporting for quick failure analysis.
 6. Never ship code with broken tests.
-7. Use data driven tests to cover a broader set of scenarios with test code.
+7. Use data-driven tests to cover a broader set of scenarios with less test code.
 
-## Automated Test Code Design
-1. Use a modular design which supports easy re-use of code.
-2. Keep your test code separate from action code, and separate from app interaction code (UI code). One nice pattern: Page Objects, Action Objects, Test Objects
+### Test code design
+1. Modular design that supports easy reuse.
+2. Keep test logic separate from action logic, and both separate from app-interaction code. One pattern that works: Page Objects → Action Objects → Test Objects.
 
-## Prioritize Test Automation
-Suggested priority order:
-1. Critical functionality.
-2. Commonly used functionality.
-3. High Risk functionality.
-4. High Visibility functionality.
-5. Bug concentrations.
-6. Time consuming tests.
-7. Data driven tests.
+### Automation priority
+1. Critical functionality
+2. Commonly used functionality
+3. High-risk functionality
+4. High-visibility functionality
+5. Bug concentrations
+6. Time-consuming manual tests
+7. Data-driven cases
 
-- My current projects include:  
--- Quality Leadership: Leading my organization to deliver business value faster through improved quality.  
--- Shared testing delivers higher quality earlier in the SDLC.  This works best when Quality Engineering maintains ownership of Quality, sharing ownership of testing across the team.
--- Building quality from the outset eliminates context switching and rework.  
-- What does this mean for you?  
--- Higher performing teams who find greater fulfillment in their work.
-- How do i do this?  
--- Designing a Definition of Done with the team.  
-  --- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product.  
-  --- We outline our story implementation.  
-  --- We decide how we will test each feature.  
-  --- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business.  
--- During the coding phase, we outline as much, or as little, of a test plan as we need.  
+### Shared ownership
+Quality Engineering owns *quality*; the whole team owns *testing*. Building quality in from the outset eliminates context switching and rework.
 
-<!--
-# What is an Engineering Team Architecture (ETA)  
-Successful organziations have a clear understanding of the required individual roles and responsibilities. These responsibilities define an engineering team's processes. While many engineering organizations wish to have as much flexibility as possible (engineering is an art, after all) , there are certain talents required. There are also certain expectations required of one another, often expressed through the organization's processes.
-These two, roles and processes (responsibilities), define how the organization will build things, or the organization's Engineering Team Architecture.
+In practice: design the Definition of Done with the team. At story start, hold a Three Amigos meeting (coder, tester, product) — outline the implementation, decide how each feature gets tested, and leave with a sketch of the code, a sketch of the test plan, and confidence the story satisfies the business need. During coding, flesh out as much or as little of the test plan as the story warrants.
 
-## [Faster through better quality](https://qeunit.com/manifesto/?utm_source=mailpoet&utm_medium=email&utm_campaign=you-are-now-following-the-qe-unit_1 )
-
-- 🔭 I’m currently working on  
--- Quality Leadership: Leading my organization to deliver business value faster through improved quality  
--- Team ownership of quality encourages shared testing  
--- Shared testing delivers higher quality earlier in the SDLC  
--- Building quality from the outset eliminates context switching and rework  
-- What does this mean for you  
--- Higher performing teams who find greater fulfillment in their work
-- How do i do this?  
--- Designing a Definition of Done with the team  
---- When starting a story, we use a Three Amigos meeting, involving Coder, Tester and Product  
---- We outline our story implementation  
---- We decide how we will test each piece of that implementation  
---- We walk away with an outline of what code will look like, what a test plan will look like, and confidence that we're on target to satisify the needs of the business  
--- During the coding phase, we outline as much, or as little, of a test plan as we need  
-
-  
-- 🌱 I’m currently learning  
--- Kubernetes  
--- Cloud testing  
--- Continuous Delivery  
--- More about the Cypress framework every day  
--- Functional programming with Javascript and Typescript  
--- Java and Selenium  
-- 💬 Ask me about  
--- Shift Left: Building in quality from the beginning  
--- Shift Right: Testing in production  
--- Test automation best practices  
--- Cypress testing best practices  
--- Full stack test automation  
--- Test frameworks  
--- Defining quality objectives for CI/CD  
--- Defining your test strategy  
-
-
-- The Value of Testing  
--- One novel way to communicate the value of 
--- Sprint Demo  
---- I’ve found stakeholders and leadership particularly appreciate including test methodologies in the sprint demo. We show what we tested, how we tested it, and what we’ve automated. This gives them insight into the quality being delivered, as well as what we’ve done to prevent future issues.  
-
-### Quality Organizations
-[](QE Unit)
-
-<!-- Dead Orgs?
-[https://www.veriomqa.com/](Veriom QA)
--->
-
-<!-- Some objectives I might set, if i join your team:  
-- 45 Days  
--- Searching for two Senior QA Engineer candidates  
-Review current quality processes and identify opportunities/gaps
-Join current code review process
-Partner with engineering to create DoD (Definition of Done) which meets Quality objectives
-
-90 Days
-Partner with Engineering to ensure RACI for the organization includes Quality Engineers
-Partner with DevOps to define CI/CD process
-   - Clearly defined test environments (orcontainers) with Quality objectives for each
-   - Define goals for time from code completion to production
-
-
-360 Days
-Partner with DevOps and Engineering to Implement CI/CD 
-
-**JimHinson/JimHinson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🤔 I’m looking for help with ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</details>
